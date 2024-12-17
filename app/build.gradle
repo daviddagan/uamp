@@ -36,9 +36,7 @@ android {
         }
         kotlinOptions {
             jvmTarget = JavaVersion.VERSION_17.toString()
-            freeCompilerArgs += [
-                    "--add-exports", "jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED"
-            ]
+
         }
 
         vectorDrawables {
